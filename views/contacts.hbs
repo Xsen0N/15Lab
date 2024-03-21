@@ -1,0 +1,10 @@
+<div class="form-part contacts">
+    <div class="list-container">
+        {{#each contacts}}
+            {{>contact}}
+        {{/each}}
+    </div>
+</div>
+<div class="form-part control" style="width: 100%">
+    <button style="width: 100%" onclick="window.location.href = '/add'">Добавить</button>
+</div>
